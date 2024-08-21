@@ -6,7 +6,7 @@ const RightArrowButton = ({ numItems, state, setState, width, height }) => {
     
     const handlePress = () => {
         if (state < numItems - 1) {
-            setState(state + 1)
+            setState(prev => prev + 1)
         }
         else {
             setState(0)
