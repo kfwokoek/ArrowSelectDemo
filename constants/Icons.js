@@ -1,5 +1,5 @@
-import left_arrow from '../assets/icons/left-arrow.png';
-import right_arrow from '../assets/icons/right-arrow.png';
+import left_arrow from '../assets/icons/left_arrow.png';
+import right_arrow from '../assets/icons/right_arrow.png';
 
 export default {
     left_arrow,
